@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Primary: ['Maven Pro', 'sans-serif'],
-        Sec: ['Cinzel', 'serif']
+        primary: ['Maven Pro', 'sans-serif'],
+        secondary: ['Cinzel', 'serif']
       },
+      backgroundImage: theme => ({
+        'header': "url('https://i.ibb.co/M5ZYGFM/02.jpg')"
+      })
     },
   },
   plugins: [],
